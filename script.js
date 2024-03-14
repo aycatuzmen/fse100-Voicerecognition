@@ -41,7 +41,8 @@ function gotSpeech() {
     said = speechRec.resultString;
     // Show user
     //output.html(said);
-    text (said, 40, 60)
+    text (said, 40, 60);
+    console.log(said);
     
   }
 }
